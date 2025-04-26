@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: rgb(99, 97, 97);
+    background: rgb(99, 97, 97);
 }
 
 li, a {
@@ -249,5 +249,9 @@ footer {
 @media (max-width: 600px) {
     .about-section .para-wrapper {
 
+    }
+
+    .projects-section .projects-wrapper {
+        flex-direction: column;
     }
 }
